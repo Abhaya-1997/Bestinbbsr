@@ -1,4 +1,4 @@
 # ads.txt for bestinbhubaneswar.in
 # Google AdSense
 google.com, pub-1720880161299487, DIRECT, f08c47fec0942fa0
-
+google.com, pub-8272572134711309, DIRECT, f08c47fec0942fa0
