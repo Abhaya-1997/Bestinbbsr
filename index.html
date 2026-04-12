@@ -784,7 +784,27 @@
 
     <div class="hp3-grid">
 
-      <!-- City Living - IT Professionals Residential Areas (newest) -->
+      <!-- City Living - Cheapest Rent Areas (newest) -->
+      <a href="cheapest-areas-rent-bhubaneswar-under-8000.html" class="hp3-card hp3-featured">
+        <div class="hp3-card-img">
+          <img src="images/city-living/cheapest-areas-rent-bhubaneswar-hero.png" alt="Cheapest areas to rent in Bhubaneswar under ₹8,000 per month 2026" />
+          <div class="hp3-card-img-tag">City Living</div>
+        </div>
+        <div class="hp3-card-body">
+          <div class="hp3-card-tag" style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:8px;">Budget Rent Guide · April 2026</div>
+          <h3 class="hp3-card-title">Cheapest Areas to Rent in Bhubaneswar Under ₹8,000/Month (2026 Guide)</h3>
+          <p class="hp3-card-excerpt">6 verified budget areas — Rasulgarh, Sundarpada, Khandagiri outskirts, Tamando, Aiginia &amp; Mancheswar. Real rent data, commute trade-offs, red flags. Ground-verified March 2026.</p>
+          <div class="hp3-card-footer">
+            <div class="hp3-card-meta">
+              <span>📅 Apr 12, 2026</span>
+              <span>⏱ 14 min</span>
+            </div>
+            <span class="hp3-card-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- City Living - IT Professionals Residential Areas -->
       <a href="top-residential-areas-bhubaneswar-it-professionals.html" class="hp3-card hp3-featured">
         <div class="hp3-card-img">
           <img src="images/city-living/top-residential-areas-bhubaneswar-it-professionals-hero.png" alt="Top 5 residential areas Bhubaneswar for IT professionals near Infocity 2026" />
@@ -1382,6 +1402,7 @@
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact Us</a>
         <a href="privacy.html">Privacy Policy</a>
+        <a href="cookies.html">Cookie Policy</a>
         <a href="disclaimer.html">Disclaimer</a>
       </div>
     </div>
@@ -1390,6 +1411,21 @@
     </p>
   </div>
 </footer>
+
+<div class="cookie-consent" id="cookieConsent">
+  <div class="cookie-consent-inner">
+    <div class="cookie-text">We use cookies and similar technologies to improve your browsing experience and serve personalised ads. By clicking "Accept All", you consent to our use of cookies as described in our <a href="cookies.html">Cookie Policy</a> and <a href="privacy.html">Privacy Policy</a>.</div>
+    <div class="cookie-buttons">
+      <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+      <button class="cookie-btn cookie-decline" onclick="declineCookies()">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+  function acceptCookies() { localStorage.setItem('cookieChoice','accepted'); document.getElementById('cookieConsent').style.display='none'; }
+  function declineCookies() { localStorage.setItem('cookieChoice','declined'); document.getElementById('cookieConsent').style.display='none'; }
+  if (!localStorage.getItem('cookieChoice')) { document.getElementById('cookieConsent').classList.add('show'); }
+</script>
 
 </body>
 </html>

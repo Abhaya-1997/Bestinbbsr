@@ -115,6 +115,23 @@
 
   <div class="section-label">Latest Articles</div>
 
+  <a href="cheapest-areas-rent-bhubaneswar-under-8000.html" class="article-card-featured">
+    <div class="acf-img">
+      <img src="images/city-living/cheapest-areas-rent-bhubaneswar-hero.png" alt="Cheapest areas to rent in Bhubaneswar under ₹8,000 per month — 2026 guide" />
+    </div>
+    <div class="acf-body">
+      <div class="card-tag">Budget Rent Guide · April 2026</div>
+      <div class="card-title">Cheapest Areas to Rent in Bhubaneswar Under ₹8,000/Month (2026 Guide)</div>
+      <p class="card-excerpt">6 verified budget areas — Rasulgarh, Sundarpada, Khandagiri outskirts, Tamando, Aiginia &amp; Mancheswar. Real rent data, commute trade-offs, waterlogging warnings, and red flags from brokers. Ground-verified March 2026.</p>
+      <div class="card-meta">
+        <span>📅 April 12, 2026</span>
+        <span>⏱ 14 min read</span>
+        <span>📍 Rasulgarh · Sundarpada · Khandagiri · Tamando</span>
+      </div>
+      <span class="card-read-more">Read Full Guide</span>
+    </div>
+  </a>
+
   <a href="top-residential-areas-bhubaneswar-it-professionals.html" class="article-card-featured">
     <div class="acf-img">
       <img src="images/city-living/top-residential-areas-bhubaneswar-it-professionals-hero.png" alt="Top 5 residential areas in Bhubaneswar for IT professionals near Infocity — 2026 guide" />
@@ -253,6 +270,7 @@
       <h4>Legal</h4>
       <ul>
         <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookie Policy</a></li>
         <li><a href="disclaimer.html">Disclaimer</a></li>
         <li><a href="terms.html">Terms of Use</a></li>
       </ul>
@@ -268,6 +286,7 @@
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact Us</a>
         <a href="privacy.html">Privacy Policy</a>
+        <a href="cookies.html">Cookie Policy</a>
         <a href="disclaimer.html">Disclaimer</a>
       </div>
     </div>
@@ -276,6 +295,21 @@
     </p>
   </div>
 </footer>
+
+<div class="cookie-consent" id="cookieConsent">
+  <div class="cookie-consent-inner">
+    <div class="cookie-text">We use cookies and similar technologies to improve your experience and serve personalised ads. By clicking "Accept All", you consent to our use of cookies as described in our <a href="cookies.html">Cookie Policy</a>.</div>
+    <div class="cookie-buttons">
+      <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+      <button class="cookie-btn cookie-decline" onclick="declineCookies()">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+  function acceptCookies() { localStorage.setItem('cookieChoice','accepted'); document.getElementById('cookieConsent').style.display='none'; }
+  function declineCookies() { localStorage.setItem('cookieChoice','declined'); document.getElementById('cookieConsent').style.display='none'; }
+  if (!localStorage.getItem('cookieChoice')) { document.getElementById('cookieConsent').classList.add('show'); }
+</script>
 
 </body>
 </html>
